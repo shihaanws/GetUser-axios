@@ -4,7 +4,6 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import { Button } from '@material-ui/core';
 
-
 function App() {
   const [users,setUsers] = useState(null)
   const [loading,setLoading] = useState(false)
@@ -39,8 +38,6 @@ return (
 
   {loading? <div><CircularProgress/></div>:''}
     
-   
-   
     {/* Display data from API */}
     <div className="users">
       {users &&
