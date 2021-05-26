@@ -11,10 +11,10 @@
 
 ## Approach
 
-- Create-react-app for basic React Boilerplate.
-- useState hook to set Users and loader based on Onclick events.
-- Buttons & Loaders via material UI npm packages.
+- create-react-app for basic React boilerplate.
+- useState hook to set Users and loaders based on onClick events.
+- Button & Loader via material UI npm packages.
 - Loaders are set to true only if data starts fetching and ends when its fetched.
-- Data fetched via axios displays on "Get users" click input. 
+- Data fetched via Axios displays on "Get users" onClick event. 
 
 
